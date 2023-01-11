@@ -1,0 +1,152 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+.container {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+  } 
+  
+body {
+    background-color: grey;
+}
+
+.main-header {
+    display: flex;
+    background-color: white;
+}
+
+img.logo {
+    width: 200px;
+    height: 28px;
+    margin: 35px;
+}
+
+ul.navigation-item-list {
+    list-style: none;
+    text-decoration: none;
+}
+
+li.menu-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+h2.page-title-logo {
+    margin: 35px;
+    padding: 5px;
+}
+
+nav.main-navigation {
+    padding: 10px;
+    display: inline-block;
+}
+
+a.menu-link {
+    text-decoration: none;
+    color: #000C2D;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+button.primary-button:hover {
+    background-color: #2F70FE;
+    color: white;
+}
+
+button.primary-button {
+    padding: 12px 23px;
+    width: 136px;
+    height: 44px;
+    display: inline-block;
+    background-color: #FFFFFF;
+    border: 1px solid #2F70FE;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Circular Std';
+    line-height: 20px;
+    color: #2F70FE;
+    cursor: pointer;
+}
+
+button.secondary-button {
+    padding: 16px 25px;
+    width: 162px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    color: #fff;
+    background-color: black;
+    cursor: pointer;
+}
+.hero-box {
+    background-color: #2F70FE;
+    filter: grayscale(40%);
+    color: white;
+    height: 565px;
+}
+.title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2.hero-box-title {
+    font-family: 'Circular Std';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 65px;
+    text-align: center;
+}
+p.hero-box-page-description {
+    width: 605px;
+    height: 60px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+img.partner-left {
+    width: 389px;
+    height: 254px;
+    position: absolute;
+    bottom: 30px;
+}
+
+img.partner-right {
+    position: absolute;
+    left: 67.5%;
+    right: 8.88%;
+    top: 45%;
+    bottom: 84.69%;
+}
+
+section.services-list {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 460px;
+}
+
+h2.service-title {
+    margin: 0;
+    text-align: center;
+    font-size: 48px;
+    line-height: 51px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
+.service-list-image {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
